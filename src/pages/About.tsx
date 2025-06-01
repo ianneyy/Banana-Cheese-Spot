@@ -1,6 +1,7 @@
 import { About3 } from "@/components/about-3";
 import bananaImage from "@/assets/banana_main.png";
 import bananaLogo from "@/assets/bananalogo.png";
+import Alden from "@/assets/Alden.jpg";
 
 const About = () => {
   return (
@@ -11,7 +12,6 @@ const About = () => {
         src: bananaImage,
         alt: "placeholder",
       }}
-  
       breakout={{
         src: bananaLogo,
         alt: "logo",
@@ -19,7 +19,7 @@ const About = () => {
         description:
           "From late-night cravings to study break treats, we’ve served thousands of students and foodies with our signature banana cheese rolls. Freshly made, perfectly crisped, and totally addicting.",
         buttonText: "Order Now",
-        buttonUrl: "https://shadcnblocks.com",
+        buttonUrl: Alden,
       }}
       achievementsTitle="What We've Cooked Up So Far"
       achievementsDescription="We may have started as a small campus stall, but your love for our snacks turned us into a local favorite."

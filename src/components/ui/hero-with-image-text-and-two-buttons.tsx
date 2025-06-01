@@ -1,4 +1,4 @@
-import { MoveRight, PhoneCall } from "lucide-react";
+import { MoveRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import bananaImage from "@/assets/banana_main.png";
@@ -25,12 +25,18 @@ function Hero() {
               </p>
             </div>
             <div className="flex flex-row gap-4">
-              <Button size="lg" className="gap-4" variant="outline">
+              {/* <Button size="lg" className="gap-4" variant="outline">
                 Jump on a call <PhoneCall className="w-4 h-4" />
-              </Button>
-              <Button size="lg" className="gap-4">
-                Sign up here <MoveRight className="w-4 h-4" />
-              </Button>
+              </Button> */}
+              <a
+                href="https://web.facebook.com/profile.php?id=61554179376003" // replace with your actual page
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button size="lg" className="gap-4 bg-blue-500 text-white">
+                  Visit our Facebook Page <MoveRight className="w-4 h-4" />
+                </Button>
+              </a>
             </div>
           </div>
           <div className="bg-muted rounded-md aspect-square">

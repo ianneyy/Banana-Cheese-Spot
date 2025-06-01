@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import Alden from "@/assets/Alden.jpg";
 
 interface About3Props {
   title?: string;
@@ -88,7 +89,7 @@ export const About3 = ({
     description:
       "Providing businesses with effective tools to improve workflows, boost efficiency, and encourage growth.",
     buttonText: "Discover more",
-    buttonUrl: "https://shadcnblocks.com",
+    buttonUrl: Alden,
   },
   // companiesTitle = "Valued by clients worldwide",
   // companies = defaultCompanies,
