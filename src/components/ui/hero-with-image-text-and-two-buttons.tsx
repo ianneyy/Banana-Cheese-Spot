@@ -6,7 +6,7 @@ import { Navbar } from "@/components/ui/mini-navbar";
 
 function Hero() {
   return (
-    <div className="w-full  py-30 px-20">
+    <div className="w-full  py-30 px-5 lg:px-20">
       <Navbar />
       <div className="container mx-auto">
         <div className="grid grid-cols-1 gap-8 items-center lg:grid-cols-2">

@@ -97,7 +97,7 @@ export const About3 = ({
   achievements = defaultAchievements,
 }: About3Props = {}) => {
   return (
-    <section className="py-32 px-20">
+    <section className="py-32 px-5 lg:px-20">
       <div className="container mx-auto">
         <div className="mb-14 grid gap-5 text-center md:grid-cols-2 md:text-left">
           <h1 className="text-5xl font-semibold ">{title}</h1>
@@ -117,7 +117,9 @@ export const About3 = ({
                 className="mr-auto h-12"
               />
               <div>
-                <p className="mb-2 text-lg font-semibold text-yellow-400">{breakout.title}</p>
+                <p className="mb-2 text-lg font-semibold text-yellow-400">
+                  {breakout.title}
+                </p>
                 <p className="text-muted-foreground">{breakout.description}</p>
               </div>
               <Button variant="outline" className="mr-auto" asChild>
