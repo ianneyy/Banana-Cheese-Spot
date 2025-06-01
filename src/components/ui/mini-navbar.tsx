@@ -157,16 +157,16 @@ export function Navbar() {
             <a
               key={link.href}
               href={link.href}
-              className="text-yellow-300 hover:text-white transition-colors w-full text-center"
+              className="text-gray-900 hover:text-white transition-colors w-full text-center"
             >
               {link.label}
             </a>
           ))}
         </nav>
-        <div className="flex flex-col items-center space-y-4 mt-4 w-full">
+        {/* <div className="flex flex-col items-center space-y-4 mt-4 w-full">
           {loginButtonElement}
           {signupButtonElement}
-        </div>
+        </div> */}
       </div>
     </header>
   );
